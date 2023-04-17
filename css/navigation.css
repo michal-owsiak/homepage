@@ -1,0 +1,27 @@
+.navigation {
+    margin: 35px;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navigation__item {
+    margin: 15px auto 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: black
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black
+}
+
+.navigation__link:hover {
+    border-bottom: 1px solid;
+    color: #5d5d5d;
+}

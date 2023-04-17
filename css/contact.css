@@ -1,0 +1,12 @@
+.contact {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact__mailLink {
+    color: #3d409cf8;
+}
+
+.contact__mailLink:hover {
+    color: #4247e0f8;
+}

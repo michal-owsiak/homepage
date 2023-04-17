@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: #000;
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Atkinson Hyperlegible', serif;
+    font-size: 15px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+}
+
+.subHeading {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.main {
+    margin: auto;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.interestingElement {
+    color: #1c1c1cf8;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.link {
+    color: #3d409cf8;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.link:hover {
+    outline: none;
+    border-bottom: 1px solid;
+    color: #4247e0f8;
+}

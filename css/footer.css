@@ -1,0 +1,21 @@
+.footer {
+    padding: 30px;
+    text-align: center;
+    font-size: 13px;
+    margin: 70px 0px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.footer__link {
+    color: #3d409cf8;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer__link:hover {
+    outline: none;
+    border-bottom: 1px solid;
+    color: #4247e0f8;
+}
