@@ -1,9 +1,23 @@
-let button = document.querySelector(".js-button");
-let poem = document.querySelector(".js-poem");
-let showOrHide = document.querySelector(".js-showOrHide");
+{
+    const showOrHidePoem = () => {
+        const poem = document.querySelector(".js-poem");
 
-button.addEventListener("click", () => {
-    poem.classList.toggle("poem--hidden");
+        poem.classList.toggle("poem--hidden")
+    }
 
-    showOrHide.innerText = poem.classList.contains("poem--hidden") ? "Pokaż" : "Ukryj";
-});
+    const updateButtonText = () => {
+        const showOrHide = document.querySelector(".js-showOrHide");
+        const poem = document.querySelector(".js-poem");
+
+        showOrHide.innerText = poem.classList.contains("poem--hidden") ? "Pokaż" : "Ukryj";
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+
+        button.addEventListener("click", showOrHidePoem);
+        button.addEventListener("click", updateButtonText);
+    };
+
+    init();
+}
