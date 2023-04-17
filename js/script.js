@@ -2,7 +2,7 @@
     const showOrHidePoem = () => {
         const poem = document.querySelector(".js-poem");
 
-        poem.classList.toggle("poem--hidden")
+        poem.classList.toggle("poem--hidden");
     }
 
     const updateButtonText = () => {
